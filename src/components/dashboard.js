@@ -39,9 +39,9 @@ const dashboard = () => {
             <div className='flex flex-wrap w-full md:py-12 m-auto'>
                 {/* Left section */}
                 <div className='md:w-3/12 w-full flex flex-wrap'>
-                    <div className='w-4/12'>
-                        <div className='m-2 border-2 border-pinkwhite rounded-full'>
-                            <div className='bg-black opacity-70 rounded-full pb-6 text-white h-full'>
+                    <div className='w-4/12 items-stretch'>
+                        <div className='m-2 border-2 border-pinkwhite h-full rounded-full'>
+                            <div className='bg-black opacity-70 rounded-full pb-4 text-white h-full'>
                                 <div className='rounded-t-full'>
                                     <img src="/image/Frame_single_1.png" className='rounded-t-full w-full' />
                                     <p className='font-bold text-pinkwhite text-xs text-center  px-1 break-all'>ALL</p>
