@@ -9,24 +9,19 @@ import { BiSolidChess } from "react-icons/bi";
 const dashboard = () => {
     return (
         <div className='bg-[url("/image/image.png")] bg-cover  md:px-8 px-3 pb-6 h-full bg-center'>
-            <div className='flex justify-between items-center pt-2'>
-                {/* logo section */}
+            <div className='flex justify-between items-center md:px-8 px-4 pt-2 fixed top-0 left-0 w-full z-50'>
                 <div>
-                    <div className='md:space-x-4 space-x-2 '>
+                    <div className='md:space-x-4 space-x-2'>
                         <div className='md:w-12 md:h-12 w-9 h-9 border-2 border-pinkgradient rounded-full bg-gray-800'>
                             <img className=' bg-black' />
                         </div>
                     </div>
                 </div>
-
-                {/* image section */}
                 <div className=''>
                     <div className=''>
                         <img src="/image/logo.png" className='sm:w-4/12 w-1/2 m-auto' />
                     </div>
                 </div>
-
-                {/* icon section */}
                 <div>
                     <div className='text-pinkgradient flex space-x-4'>
                         <p className='md:p-1.5 p-1 border-2 border-pinkgradient cursor-pointer rounded-md'><TbArrowsMinimize /></p>
@@ -35,8 +30,9 @@ const dashboard = () => {
                 </div>
             </div>
 
+
             {/*card section  */}
-            <div className='flex flex-wrap w-full md:py-12 m-auto'>
+            <div className='flex flex-wrap w-full md:pt-16 pt-12 m-auto'>
                 {/* Left section */}
                 <div className='md:w-4/12 w-full flex flex-wrap sm:mb-0 mb-1'>
                     <div className='w-4/12 items-stretch'>
