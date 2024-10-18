@@ -44,27 +44,27 @@ const dashboard = () => {
                             <div className='bg-black opacity-70 rounded-full pb-6 text-white h-full'>
                                 <div className='rounded-t-full'>
                                     <img src="/image/Frame_single_1.png" className='rounded-t-full w-full' />
-                                    <p className='font-bold text-pinkwhite text-xs text-center'>ALL</p>
+                                    <p className='font-bold text-pinkwhite text-xs text-center  px-1 break-all'>ALL</p>
                                     <hr className='border border-gray-800 mx-2 mt-1' />
                                 </div>
                                 <div className='mt-2'>
                                     <PiHandHeartFill className='text-4xl m-auto text-pinkgradient' />
-                                    <p className='font-bold text-pinkwhite text-xs text-center'>FAVORITE</p>
+                                    <p className='font-bold text-pinkwhite text-xs text-center px-1 break-all'>FAVORITE</p>
                                     <hr className='border border-gray-800 mx-2 mt-1' />
                                 </div>
                                 <div className='mt-2'>
                                     <FaCircleDollarToSlot className='text-4xl m-auto text-pinkgradient' />
-                                    <p className='font-bold text-pinkwhite text-xs text-center'>SLOTS</p>
+                                    <p className='font-bold text-pinkwhite text-xs text-center px-1 break-all'>SLOTS</p>
                                     <hr className='border border-gray-800 mx-2 mt-1' />
                                 </div>
                                 <div className='mt-2'>
                                     <IoFishSharp className='text-4xl m-auto text-pinkgradient' />
-                                    <p className='font-bold text-pinkwhite text-xs text-center'>FISHING</p>
+                                    <p className='font-bold text-pinkwhite text-xs text-center px-1 break-all'>FISHING</p>
                                     <hr className='border border-gray-800 mx-2 mt-1' />
                                 </div>
                                 <div className='mt-2 bg-black rounded-b-full'>
                                     <BiSolidChess className='text-4xl m-auto text-pinkgradient' />
-                                    <p className='font-bold text-pinkwhite text-xs text-center'>OTHER</p>
+                                    <p className='font-bold text-pinkwhite text-xs text-center px-1 break-all'>OTHER</p>
                                     <hr className='border border-gray-800 mx-2 mt-1' />
                                 </div>
                             </div>
@@ -119,7 +119,6 @@ const dashboard = () => {
                     </div>
                 </div>
             </div>
-
 
         </div>
     );
